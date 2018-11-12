@@ -10,6 +10,7 @@ import { PAGES_ROUTES } from './pages.routes';
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { ChartsModule } from 'ng2-charts';
 import { GraficaComponent } from '../components/grafica/grafica.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 @NgModule({
     declarations: [
@@ -18,7 +19,8 @@ import { GraficaComponent } from '../components/grafica/grafica.component';
         Graficas1Component,
         PagesComponent,
         IncrementadorComponent,
-        GraficaComponent
+        GraficaComponent,
+        AccountSettingsComponent
     ],
     exports: [
         DashboardComponent,
