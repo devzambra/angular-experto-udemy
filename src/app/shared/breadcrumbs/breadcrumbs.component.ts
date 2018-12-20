@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, ActivationEnd } from '@angular/router';
-import { filter, map } from 'rxjs/Operators';
+import { filter, map } from 'rxjs/operators';
 import { Title, Meta, MetaDefinition } from '@angular/platform-browser';
 
 @Component({
@@ -20,7 +20,7 @@ titulo: string;
 
       const metaTag: MetaDefinition = {
         name: 'description',
-        content: this.titulo;
+        content: this.titulo
       };
 
       this.meta.updateTag(metaTag);
